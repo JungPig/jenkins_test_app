@@ -3,9 +3,9 @@ server:
   port: 443
   address: 0.0.0.0
   ssl:
-    key-store: classpath:keystore.p12
+    key-store: classpath:keystore.jks
     key-store-password: gkachfha
-    key-store-type: PKCS12
+    key-store-type: JKS
     protocol: TLS
     ciphers: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
 spring:
