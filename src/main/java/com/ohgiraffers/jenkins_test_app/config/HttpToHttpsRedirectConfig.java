@@ -21,7 +21,7 @@ public class HttpToHttpsRedirectConfig {
         connector.setScheme("http");
         connector.setPort(8082);  // HTTP 포트
         connector.setSecure(false);
-        connector.setRedirectPort(8082);  // HTTPS 포트
+        connector.setRedirectPort(8443);  // HTTPS 포트
         return connector;
     }
 }
