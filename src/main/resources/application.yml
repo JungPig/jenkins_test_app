@@ -6,6 +6,9 @@ server:
     key-store: classpath:keystore.p12
     key-store-password: gkachfha
     key-store-type: PKCS12
+    trust-store: classpath:ssl/ca_bundle.crt
+    trust-store-password: gkachfha
+    trust-store-type: PEM
 spring:
   jpa:
     show-sql: true
