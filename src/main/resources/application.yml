@@ -1,6 +1,6 @@
 
 server:
-  port: 8082
+  port: 443
   address: 0.0.0.0
   ssl:
     key-store: classpath:ourkey.p12
