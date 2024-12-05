@@ -3,7 +3,7 @@ server:
   port: 443
   address: 0.0.0.0
   ssl:
-    key-store: classpath:ourkey.p12
+    key-store: classpath:keystore.p12
     key-store-password: gkachfha
     key-store-type: PKCS12
 spring:
